@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   title: 'PixelsUI - Next.js Dashboard Template',
   description: 'Clean, reliable automation to boost your team\'s efficiency.',
   icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
-    apple: '/favicon.png',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
   },
 };
 
