@@ -102,7 +102,7 @@ const Hero = () => {
           className="relative w-full max-w-[1000px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-pink-500/10"
         >
           <Image
-            src="/hero-section-showcase.webp"
+            src="/hero-section-showcase.png"
             alt="Dashboard UI"
             width={1200}
             height={800}

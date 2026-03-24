@@ -40,7 +40,7 @@ const ProductValue = () => {
             className="relative rounded-[20px] overflow-hidden border border-white/10 group"
           >
             <Image
-              src="/features-showcase-1.webp"
+              src="/features-showcase-1.png"
               alt="10X Productivity"
               width={800}
               height={600}
@@ -61,7 +61,7 @@ const ProductValue = () => {
             >
               <div className="rounded-[19px] overflow-hidden bg-[#18181B]">
                 <Image
-                  src="/features-showcase-2.webp"
+                  src="/hero-section-showcase-2.png"
                   alt="Monthly Invoice Chart"
                   width={600}
                   height={400}
