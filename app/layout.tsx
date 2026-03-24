@@ -17,6 +17,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'PixelsUI - Next.js Dashboard Template',
   description: 'Clean, reliable automation to boost your team\'s efficiency.',
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
