@@ -1,0 +1,7 @@
+*.png binary
+*.ico binary
+*.svg text
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
