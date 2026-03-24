@@ -98,4 +98,4 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ---
 
-*Built with ❤️ by [Your Name](https://github.com/your-username)*
+*Built by Qudoos 
