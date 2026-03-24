@@ -48,6 +48,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonials[0] 
           width={36}
           height={36}
           className="rounded-full object-cover"
+          referrerPolicy="no-referrer"
         />
       </div>
       <div>

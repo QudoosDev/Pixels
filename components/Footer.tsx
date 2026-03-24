@@ -26,6 +26,7 @@ const Footer = () => {
                 width={24}
                 height={24}
                 className="w-8 h-8 opacity-80 hover:opacity-100 transition-opacity"
+                referrerPolicy="no-referrer"
               />
             </Link>
           </div>

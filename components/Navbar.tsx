@@ -37,6 +37,7 @@ const Navbar = () => {
             width={40}
             height={40}
             className="w-30 h-10"
+            referrerPolicy="no-referrer"
           />
         </Link>
 

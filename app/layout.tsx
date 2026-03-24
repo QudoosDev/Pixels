@@ -19,6 +19,8 @@ export const metadata: Metadata = {
   description: 'Clean, reliable automation to boost your team\'s efficiency.',
   icons: {
     icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   },
 };
 

@@ -8,13 +8,14 @@ const Hero = () => {
   return (
     <section id="home" className="relative pt-32 pb-20 overflow-hidden flex flex-col items-center">
       {/* Background Glow */}
-      <div className="absolute top-0 left-0 w-full h-full -z 10 pointer-events-none overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-full -z-10 pointer-events-none overflow-hidden">
         <Image
           src="/download.svg"
           alt="background glow"
           fill
           className="object-cover scale-x-[0.9] opacity-100"
           priority
+          referrerPolicy="no-referrer"
         />
       </div>
 
@@ -107,6 +108,8 @@ const Hero = () => {
             height={800}
             className="w-full h-auto"
             priority
+            unoptimized
+            referrerPolicy="no-referrer"
           />
         </motion.div>
       </div>

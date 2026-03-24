@@ -8,12 +8,13 @@ const ProductValue = () => {
   return (
     <section className="py-24 bg-black relative overflow-hidden">
       {/* Background Glow */}
-      <div className="absolute top-0 left-0 w-full h-full -z- 10 pointer-events-none overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-full -z-10 pointer-events-none overflow-hidden">
         <Image
           src="/download.svg"
           alt="background glow"
           fill
           className="object-cover opacity-100"
+          referrerPolicy="no-referrer"
         />
       </div>
 
@@ -44,6 +45,8 @@ const ProductValue = () => {
               width={800}
               height={600}
               className="w-full h-auto object-cover"
+              unoptimized
+              referrerPolicy="no-referrer"
             />
           </motion.div>
 
@@ -63,6 +66,8 @@ const ProductValue = () => {
                   width={600}
                   height={400}
                   className="w-full h-auto"
+                  unoptimized
+                  referrerPolicy="no-referrer"
                 />
               </div>
             </motion.div>
